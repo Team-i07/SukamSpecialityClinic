@@ -38,7 +38,7 @@ const videoTestimonials = [
 const Testimonials = () => {
   return (
     <div className="testimonials-section">
-      <h2>Testimonials from our happy couples</h2>
+      <h2>Testimonials from our Happy Couples</h2>
       <Swiper
         modules={[Navigation, Pagination]} // ❌ Only Navigation and Pagination
         navigation

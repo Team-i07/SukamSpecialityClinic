@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./Gallery.css";
-import img1 from "../assets/gallery1.png";
 import img2 from "../assets/gallery2.png";
 import img3 from "../assets/gallery3.png";
 import img4 from "../assets/gallery4.png";
@@ -8,17 +7,25 @@ import img5 from "../assets/gallery5.png";
 import img6 from "../assets/gallery6.png";
 import img7 from "../assets/gallery7.png";
 import img8 from "../assets/gallery8.png";
+import img9 from "../assets/img11.JPG";
+import img10 from "../assets/img12.JPG";
+import img11 from "../assets/img13.JPG";
+import img12 from "../assets/img14.JPG";
 
 
 const allImages = [
  
   { id: 2, src: img2, category: "Hospital" },
   { id: 3, src: img3, category: "Hospital" },
-  { id: 4, src: img4, category: "Reception" },
+  { id: 4, src: img12, category: "Reception" },
   { id: 5, src: img5, category: "Hospital" },
   { id: 6, src: img6, category: "Labs" },
   { id: 7, src: img7, category: "Labs" },
   { id: 8, src: img8, category: "Hospital" },
+  { id: 9, src: img9, category: "Reception" },
+  { id: 10, src: img10, category: "Reception" },
+  { id: 11, src: img11, category: "Reception" },
+  
 ];
 
 const categories = ["All", "Hospital", "Wards", "Labs", "Reception"];

@@ -124,7 +124,7 @@ const DoctorProfile = () => {
 
       {/* Conditionally rendering Testimonials based on doctorId */}
       <div className="testimonials-section">
-        <h3>Patient Testimonials</h3>
+        {/* <h3>Patient Testimonials</h3> */}
         {doctorId === "dr-manoj-karthik" && <KarthikTestimonials />}
         {doctorId === "dr-anitha-a-manoj" && <AnithaTestimonials />}
       </div>
