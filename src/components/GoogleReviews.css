@@ -1,0 +1,104 @@
+.reviews-container {
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  position: relative;
+}
+
+/* Title */
+.reviews-title {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  color: black;
+  padding-bottom: 15px;
+}
+
+
+
+/* Avatar */
+.review-avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* Review Text */
+.review-text {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+/* Star Rating */
+.rating {
+  font-size: 30px;
+  color: gold;
+}
+
+/* Buttons beside card */
+.prevbtn,
+.nextbtn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: black; /* Black symbol */
+  border: none;
+  background: none; /* Remove background */
+  font-size: 28px;
+  cursor: pointer;
+  transition: font-size 0.3s ease;
+  z-index: 2;
+}
+
+/* Left Button */
+.prevbtn {
+  left: -250px; /* Adjusted for better view on all screens */
+}
+
+/* Right Button */
+.nextbtn {
+  right: -250px;
+}
+
+/* Hover effect: only increase size */
+.prevbtn:hover,
+.nextbtn:hover {
+  font-size: 36px;
+}
+
+.review-card {
+  flex: 1 1 30%;
+  min-width: 280px;
+  max-width: 300px;
+}
+
+
+
+.review-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.review-cards-group {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  justify-content: center;
+}
+
+.review-card {
+  flex: 0 0 30%;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.5s ease;
+  max-width: 300px;
+  min-height: 300px;
+}
