@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Sukam/static/css/main.2a750091.css",
-    "main.js": "/Sukam/static/js/main.7df12f2a.js",
+    "main.css": "/Sukam/static/css/main.5a511682.css",
+    "main.js": "/Sukam/static/js/main.3dfda51d.js",
     "static/js/453.e05c848b.chunk.js": "/Sukam/static/js/453.e05c848b.chunk.js",
     "static/media/img11.JPG": "/Sukam/static/media/img11.e47c07ddf1ef8e6ef48a.JPG",
     "static/media/img12.JPG": "/Sukam/static/media/img12.ba8ba2f9dd59f691e35b.JPG",
@@ -43,12 +43,12 @@
     "static/media/about2.webp": "/Sukam/static/media/about2.d59df69cbaf666fd7137.webp",
     "static/media/about3.webp": "/Sukam/static/media/about3.e1c52f098d21d671d93b.webp",
     "index.html": "/Sukam/index.html",
-    "main.2a750091.css.map": "/Sukam/static/css/main.2a750091.css.map",
-    "main.7df12f2a.js.map": "/Sukam/static/js/main.7df12f2a.js.map",
+    "main.5a511682.css.map": "/Sukam/static/css/main.5a511682.css.map",
+    "main.3dfda51d.js.map": "/Sukam/static/js/main.3dfda51d.js.map",
     "453.e05c848b.chunk.js.map": "/Sukam/static/js/453.e05c848b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a750091.css",
-    "static/js/main.7df12f2a.js"
+    "static/css/main.5a511682.css",
+    "static/js/main.3dfda51d.js"
   ]
 }
