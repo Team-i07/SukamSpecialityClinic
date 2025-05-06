@@ -85,7 +85,7 @@ const Footer = () => {
       <div className="footer-social">
         <a
           href="https://www.facebook.com/sukamspeciality/"
-          className="social-icon"
+          className="social-icon facebook"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -93,7 +93,7 @@ const Footer = () => {
         </a>
         <a
           href="https://www.instagram.com/sukamspecialityclinic/"
-          className="social-icon"
+          className="social-icon instagram"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -101,7 +101,7 @@ const Footer = () => {
         </a>
         <a
           href="https://wa.me/919449628823?text=Hi%20Sukam%20Clinic%2C%20I%20would%20like%20to%20book%20an%20appointment."
-          className="social-icon"
+          className="social-icon whatsapp"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -109,26 +109,24 @@ const Footer = () => {
         </a>
         <a
           href="mailto:sukamspecialityclinic@gmail.com?subject=Appointment%20Request&body=Hi%20Sukam%20Clinic%2C%20I%20would%20like%20to%20book%20an%20appointment."
-          className="social-icon"
+          className="social-icon email"
           target="_blank"
           rel="noopener noreferrer"
-          title="Email Sukam Clinic"
         >
-        <FaEnvelope />
+          <FaEnvelope />
         </a>
         <a
           href="https://www.google.com/maps?ll=12.913351,77.538644&z=16&t=m&hl=en&gl=IN&mapclient=embed&q=Sukam%20Speciality%20%26%20Fertility%20Clinic"
-          className="social-icon"
+          className="social-icon map"
           target="_blank"
           rel="noopener noreferrer"
-          title="Find us on Google Maps"
         >
           <FaMapMarkerAlt />
         </a>
       </div>
 
       <div className="footer-copyright">
-        <p>© 2025 Sukam Speciality and Fertility Clinic, Inc. All rights reserved.</p>
+        <p>© 2025 Sukam Speciality and Fertility Clinic, Inc.<br />All rights reserved.</p>
       </div>
     </footer>
   );

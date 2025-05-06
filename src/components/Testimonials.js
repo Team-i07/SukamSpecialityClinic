@@ -14,8 +14,8 @@ const videoTestimonials = [
   },
   {
     id: 2,
-    url: "https://www.youtube.com/embed/sirKxcCdx9k",
-    title: "What is Recurrent Pregnancy Loss, causes and its treatment | Dr. Anitha A Manoj",
+    url: "https://www.youtube.com/embed/mY25sY26Ztc",
+    title: "     Fatty Liver Risks, Prevention & Treatment | Dr. Manoj Karthik S",
   },
   {
     id: 3,
@@ -24,13 +24,13 @@ const videoTestimonials = [
   },
   {
     id: 4,
-    url: "https://www.youtube.com/embed/mY25sY26Ztc",
-    title: "     Fatty Liver Risks, Prevention & Treatment | Dr. Manoj Karthik S",
+    url: "https://www.youtube.com/embed/uuWYyEUjrkw",
+    title: "Surgery Preparation: Essential Steps| Dr. Manoj Kathik S",
   },
   {
     id: 5,
-    url: "https://www.youtube.com/embed/uuWYyEUjrkw",
-    title: "             Surgery Preparation: Essential Steps| Dr. Manoj Kathik S",
+    url: "https://www.youtube.com/embed/sirKxcCdx9k",
+    title: "What is Recurrent Pregnancy Loss, causes and its treatment | Dr. Anitha A Manoj",
   },
 ];
 

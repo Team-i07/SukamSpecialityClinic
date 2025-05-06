@@ -1,14 +1,14 @@
 .testimonials-section {
   text-align: center;
-  padding: 50px 20px;
+  padding: 20px 40px;
   background: #dee6eb;
   border-radius: 10px;
 }
 
 .testimonials-section h2 {
   font-size: 2.5rem;
-  color: #333;
-  font-weight: bold;
+  font-weight: 800;
+  color: #0141c1;
   margin-bottom: 20px;
 }
 
@@ -48,19 +48,45 @@
   font-weight: bold;
 }
 
-/* Swiper Navigation Buttons */
+/* 🚀 Swiper Navigation Buttons */
 .swiper-button-next,
 .swiper-button-prev {
-  color: #ff80ab;
+  color: #fff;
+  background-color: #0071BC;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 113, 188, 0.3);
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background-color: #005a99;
+  transform: scale(1.1);
+}
+
+/* Optional: adjust arrow icon size inside buttons */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* 🎯 Swiper Pagination Bullets */
 .swiper-pagination-bullet {
-  background: #0071BC !important;
+  background: #d0e6f9;
+  opacity: 1;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  margin: 0 6px !important;
 }
 
-
-
-
+.swiper-pagination-bullet-active {
+  background: #0071BC !important;
+  transform: scale(1.2);
+  box-shadow: 0 0 0 4px rgba(0, 113, 188, 0.2);
+  border-radius: 8px;
+}
 
 .video-container {
 position: relative;

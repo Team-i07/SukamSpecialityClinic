@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import "./DoctorProfile.css";
-import { FaWhatsapp } from "react-icons/fa";
 import KarthikTestimonials from "../components/KarthikTestimonials";
 import AnithaTestimonials from "../components/AnithaTestimonials";
+import { FaWhatsapp, FaPhoneAlt } from "react-icons/fa";
 
 import manoj from "../assets/profile2.png";
 import anitha from "../assets/profile1.png";
@@ -19,6 +19,7 @@ const doctors = {
     image: manoj,
     appointmentLink: "https://www.eka.care/doctor/dr-manoj-karthik-general-surgeon-bengaluru/calendar?cid=674933ac16f48e001dd639b6",
     phoneNumber: "+919108108980",
+    whatsappNumber: "919108108980",
     about: `Dr. Manoj Karthik S brings over two decades of surgical expertise, specializing in both laparoscopic and open procedures. Renowned for his precision, ethical practice, and patient-centered approach, he has successfully performed thousands of surgeries with a focus on safety and faster recovery.`,
     expertise: [
       "Laparoscopic surgeries (gallbladder, appendix, hernia)",
@@ -28,7 +29,7 @@ const doctors = {
       "Surgical emergencies"
     ],
     conditions: [
-      "Gallstones, appendicitis, hernias, hemorrhoids, fissures, fistulas, thyroid nodules, breast lumps and so many more — often linked to modern lifestyle factors such as poor diet, inactivity, and stress, Dr. Manoj is highly regarded for his clinical judgment, clear communication, and commitment to quality care"
+      "Gallstones, appendicitis, hernias, hemorrhoids, fissures, fistulas, thyroid nodules, breast lumps and many more — Dr. Manoj is known for clear communication, precision surgery, and patient trust."
     ]
   },
   "dr-anitha-a-manoj": {
@@ -41,6 +42,7 @@ const doctors = {
     image: anitha,
     appointmentLink: "https://www.eka.care/doctor/dr-anitha-a-manoj-obstetrics-and-gynecologist-bengaluru/calendar?cid=674933ac16f48e001dd639b6",
     phoneNumber: "+919108108980",
+    whatsappNumber: "919108108980",
     about: `Dr. Anitha A Manoj is a highly regarded specialist in women’s health, with over 16 years of experience in obstetrics, gynecology, and fertility care. Her practice is rooted in empathy, clinical excellence, and a deep commitment to supporting women through every phase of life—from adolescence to motherhood and beyond.`,
     expertise: [
       "Infertility evaluation and treatment",
@@ -50,7 +52,7 @@ const doctors = {
       "Laparoscopic gynecologic surgeries"
     ],
     conditions: [
-      "Infertility, PCOS, fibroids, endometriosis, irregular menstruation, pregnancy complications, and menopausal concerns—often influenced by today’s lifestyle stressors and health habits. Dr. Anitha’s holistic and individualized care has empowered countless women to overcome challenges and embrace healthier, fuller lives"
+      "Infertility, PCOS, fibroids, endometriosis, irregular menstruation, pregnancy complications, and menopausal concerns—Dr. Anitha offers holistic, personalized care tailored to every stage of a woman’s life."
     ]
   }
 };
@@ -64,12 +66,15 @@ const DoctorProfile = () => {
     window.scrollTo(0, 0);
   }, []);
 
-  if (!doctor) {
-    return <h2>Doctor not found</h2>;
-  }
+  if (!doctor) return <h2>Doctor not found</h2>;
+
+  const backgroundClass =
+    doctorId === "dr-manoj-karthik" ? "bg-light-blue" :
+    doctorId === "dr-anitha-a-manoj" ? "bg-light-pink" :
+    "";
 
   return (
-    <div className="doctor-profile">
+    <div className={`doctor-profile ${backgroundClass}`}>
       <div className="go-back-container">
         <button onClick={() => navigate(-1)} className="go-back-button">← Go Back</button>
       </div>
@@ -81,22 +86,28 @@ const DoctorProfile = () => {
         <p className="designation">{doctor.designation}</p>
         <p className="experience">{doctor.experience}</p>
         <p className="languages"><strong>Languages Known:</strong> {doctor.languages.join(", ")}</p>
-        <div className="action-buttons">
-  <a href={`tel:${doctor.phoneNumber}`} className="call-button">Call {doctor.phoneNumber}</a>
 
-  <a
-    href={`https://wa.me/${doctor.phoneNumber.replace('+', '')}?text=Hi%20Doctor%2C%20I%20would%20like%20to%20book%20an%20appointment.`}
-    target="_blank"
-    rel="noopener noreferrer"
-    className="whatsapp-button"
-    title="Chat on WhatsApp"
-  >
-    <FaWhatsapp style={{ marginRight: "8px" }} />
-    WhatsApp
-  </a>
-
-  <a href={doctor.appointmentLink} target="_blank" rel="noopener noreferrer" className="book-button">Book Now</a>
-</div>
+        <div className="doctor-actions">
+          <a href={`tel:${doctor.phoneNumber}`} className="btn-call">
+            <FaPhoneAlt style={{ marginRight: "8px" }} /> Call
+          </a>
+          <a
+            href={`https://wa.me/${doctor.whatsappNumber}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-whatsapp"
+          >
+            <FaWhatsapp style={{ marginRight: "8px" }} /> WhatsApp
+          </a>
+          <a
+            href={doctor.appointmentLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-book"
+          >
+            📅 Book an Appointment
+          </a>
+        </div>
       </div>
 
       <div className="about-doctor">
@@ -122,14 +133,11 @@ const DoctorProfile = () => {
         </div>
       </div>
 
-      {/* Conditionally rendering Testimonials based on doctorId */}
       <div className="testimonials-section">
-        {/* <h3>Patient Testimonials</h3> */}
         {doctorId === "dr-manoj-karthik" && <KarthikTestimonials />}
         {doctorId === "dr-anitha-a-manoj" && <AnithaTestimonials />}
       </div>
     </div>
   );
 };
-
 export default DoctorProfile;

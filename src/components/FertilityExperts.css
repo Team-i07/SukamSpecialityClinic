@@ -2,14 +2,14 @@
 .experts-section {
   text-align: center;
   background: #f4f9fc;
-  padding: 60px 20px;
+  padding: 20px 20px;
 }
 
 .experts-heading {
   font-size: 2.5rem;
-  font-weight: 900;
-  color: #1a237e;
-  margin-bottom: 12px;
+  font-weight: 800;
+  color: #0141c1;
+  margin-bottom: 10px;
   font-family: 'Segoe UI', sans-serif;
 }
 

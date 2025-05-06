@@ -43,47 +43,154 @@ const GeneralSurgeryPage = () => {
                 <h2>Our Treatment Categories</h2>
                 <div className="treatment-grid-manoj">
                   
-                    <Link to="/treatments/IndividualTreatment" className="treatment-card-manoj">
+                    {/* <Link to="/treatments/IndividualTreatment" className="treatment-card-manoj">
                       <span className="icon-large">💢</span>
                       <h3>Hernia</h3>
                       <p>Advanced laparoscopic procedure for effective hernia repair.</p>
-                    </Link>
-
+                    </Link> */}
+                    <div className="treatment-card-manoj">
+                    <span className="icon-large">💢</span>
+                    <h3>Swelling in the Skin</h3>
+                    <p>A whole spectrum</p>
+                    </div>
                     <div className="treatment-card-manoj">
                     <span className="icon-large">🦵</span>
-                    <h3>Varicose Veins</h3>
-                    <p>Laser and minimally invasive treatments for varicose veins.</p>
+                    <h3>Skin Infections</h3>
+                    <p>Burning Coa</p>
                     </div>
                     <div className="treatment-card-manoj">
                     <span className="icon-large">🩻</span>
-                    <h3>Fatty Liver</h3>
-                    <p>Comprehensive care for effective fatty liver management.</p>
+                    <h3>Diabetic Foot Ulcer</h3>
+                    <p>Prevention is better</p>
                     </div>
                     <div className="treatment-card-manoj">
                     <span className="icon-large">🚽</span>
-                    <h3>Piles</h3>
-                    <p>Advanced treatment for painless piles relief and recovery.</p>
+                    <h3>Peripheral Arterial Occlusion</h3>
+                    <p>Heart attack of the legs</p>
                     </div>
                     <div className="treatment-card-manoj">
                     <span className="icon-large">🦶</span>
-                    <h3>Foot Ulcer Care</h3>
-                    <p>Effective treatment for quick healing and relief from foot ulcers.</p>
+                    <h3>Varicose Veins</h3>
+                    <p>The cost of erect posture</p>
                     </div>
                     <div className="treatment-card-manoj">
                     <span className="icon-large">🪙</span>
-                    <h3>Gall Stones</h3>
-                    <p>Minimally invasive treatments for effective gall stone removal.</p>
+                    <h3>Deep Vein Thrombosis</h3>
+                    <p>Punishment of immobilisation</p>
                     </div>
                     <div className="treatment-card-manoj">
                     <span className="icon-large">🦠</span>
-                    <h3>Neck Swellings</h3>
-                    <p>Expert care for accurate diagnosis and effective treatment options.</p>
+                    <h3>Thyroid Swellings</h3>
+                    <p>Midline neck</p>
                     </div>
                     <div className="treatment-card-manoj">
                     <span className="icon-large">🩺</span>
-                    <h3>Testicular Swellings</h3>
-                    <p>Comprehensive treatment for accurate diagnosis and care.</p>
+                    <h3>Thyrotoxicosis</h3>
+                    <p>Life in the fast lane</p>
                     </div>
+                    <div className="treatment-card-manoj">
+                    <span className="icon-large">🩺</span>
+                    <h3>Neck Nodes</h3>
+                    <p>Infective / Neoplastic</p>
+                    </div>
+                    
+                    <div className="treatment-card-manoj">
+                    <span className="icon-large">🦠</span>
+                    <h3>Fibroadenoma
+                    </h3>
+                    <p>Breast mouse??</p>
+                    </div>
+                    <div className="treatment-card-manoj">
+                    <span className="icon-large">🩺</span>
+                    <h3>Mastalgia
+                    </h3>
+                    <p>Blame the hormones?!?!?!</p>
+                    </div>
+                    <div className="treatment-card-manoj">
+                    <span className="icon-large">🩺</span>
+                    <h3>Breast Abscess
+                    </h3>
+                    <p>Lactating mothers - Beware</p>
+                    </div>
+
+                    <div className="treatment-card-manoj">
+                        <span className="icon-large">🩸</span>
+                        <h3>UGI Bleed</h3>
+                        <p>Vomiting Blood</p>
+                      </div>
+
+                      <div className="treatment-card-manoj">
+                        <span className="icon-large">🎁</span>
+                        <h3>Acute Abdomen</h3>
+                        <p>Pandora's Box</p>
+                      </div>
+
+                      <div className="treatment-card-manoj">
+                        <span className="icon-large">🧩</span>
+                        <h3>LGI Bleed</h3>
+                        <p>Tricky affair</p>
+                      </div>
+
+                    <div className="treatment-card-manoj">
+                      <span className="icon-large">🔥</span>
+                      <h3>GERD</h3>
+                      <p>Acid reflux</p>
+                    </div>
+
+                    <div className="treatment-card-manoj">
+                      <span className="icon-large">🍹</span>
+                      <h3>Achalasia Cardia</h3>
+                      <p>Dysphagia for liquids</p>
+                    </div>
+
+                    <div className="treatment-card-manoj">
+                      <span className="icon-large">🧬</span>
+                      <h3>Barrett's Oesophagus</h3>
+                      <p>Premalignant</p>
+                    </div>
+
+<div className="treatment-card-manoj"><span className="icon-large">💨</span><h3>Dyspepsia</h3><p>Gas & Bloating</p></div>
+<div className="treatment-card-manoj"><span className="icon-large">🚫</span><h3>Gastric Outlet Obstruction</h3><p>Less common nowadays</p></div>
+<div className="treatment-card-manoj"><span className="icon-large">🚧</span><h3>Intestinal Obstruction</h3><p>Doesn't reach the end</p></div>
+
+<div className="treatment-card-manoj"><span className="icon-large">🍔</span><h3>Fatty Liver</h3><p>Thanks to Preventive Health Checkups</p></div>
+<div className="treatment-card-manoj"><span className="icon-large">❤️</span><h3>Chronic Liver Disease</h3><p>To love you need lover; to live you need liver!!!</p></div>
+<div className="treatment-card-manoj"><span className="icon-large">🌴</span><h3>Liver Abscess</h3><p>Disease of the tropics</p></div>
+
+<div className="treatment-card-manoj"><span className="icon-large">💎</span><h3>Gall Stone Disease</h3><p>Asymptomatic to Life threatening</p></div>
+<div className="treatment-card-manoj"><span className="icon-large">🟡</span><h3>Obstructive Jaundice</h3><p>Surgical Jaundice</p></div>
+<div className="treatment-card-manoj"><span className="icon-large">🔥</span><h3>Acute Pancreatitis</h3><p>Needs a Step Up approach</p></div>
+
+<div className="treatment-card-manoj"><span className="icon-large">🪑</span><h3>Piles</h3><p>Is it really?</p></div>
+<div className="treatment-card-manoj"><span className="icon-large">⚡</span><h3>Acute Fissure in Ano</h3><p>Painful bleeding?</p></div>
+<div className="treatment-card-manoj"><span className="icon-large">🚫</span><h3>Perianal Abscess</h3><p>Unable to sit in a chair?</p></div>
+
+<div className="treatment-card-manoj"><span className="icon-large">🌙</span><h3>BPH</h3><p>Night Mare</p></div>
+<div className="treatment-card-manoj"><span className="icon-large">🧺</span><h3>Hernia</h3><p>Bread & Butter!!</p></div>
+<div className="treatment-card-manoj"><span className="icon-large">💧</span><h3>Hydrocele</h3><p>Fluid in scrotum</p></div>
+
+<div className="treatment-card-manoj"><span className="icon-large">🔑</span><h3>Minimally Invasive Surgery</h3><p>Keyhole</p></div>
+<div className="treatment-card-manoj"><span className="icon-large">💡</span><h3>LASER Surgery</h3><p>The Buzz Word</p></div>
+<div className="treatment-card-manoj"><span className="icon-large">🤖</span><h3>Robotic Surgery</h3><p>The future??</p></div>
+
+<div className="treatment-card-manoj"><span className="icon-large">🚬</span><h3>Carcinoma Oral Cavity</h3><p>Conquer the Gutka</p></div>
+<div className="treatment-card-manoj"><span className="icon-large">🌞</span><h3>Carcinoma Skin</h3><p>Sun Sun Sun</p></div>
+<div className="treatment-card-manoj"><span className="icon-large">🧼</span><h3>Carcinoma Penis</h3><p>Clear the Smegma</p></div>
+
+<div className="treatment-card-manoj"><span className="icon-large">🧊</span><h3>Soft Tissue Sarcoma</h3><p>The hidden Iceberg</p></div>
+<div className="treatment-card-manoj"><span className="icon-large">🧠</span><h3>Carcinoma Thyroid</h3><p>One of the Better ones!!!</p></div>
+<div className="treatment-card-manoj"><span className="icon-large">🎀</span><h3>Carcinoma Breast</h3><p>Let's conserve</p></div>
+
+<div className="treatment-card-manoj"><span className="icon-large">👑</span><h3>Carcinoma Oesophagus</h3><p>Surgery is King</p></div>
+<div className="treatment-card-manoj"><span className="icon-large">🕵️‍♂️</span><h3>Carcinoma Stomach</h3><p>Pick it up Early</p></div>
+<div className="treatment-card-manoj"><span className="icon-large">👁️</span><h3>Carcinoma Liver</h3><p>Vigilance is Vital</p></div>
+
+<div className="treatment-card-manoj"><span className="icon-large">🩺</span><h3>Carcinoma Pancreas</h3><p>Jaundice with pain</p></div>
+<div className="treatment-card-manoj"><span className="icon-large">📉</span><h3>Carcinoma Colon</h3><p>Unexplained weight loss</p></div>
+<div className="treatment-card-manoj"><span className="icon-large">🔑</span><h3>Carcinoma Anorectum</h3><p>Sphincter is the key</p></div>
+
+
+
                 </div>
                 </div>
 

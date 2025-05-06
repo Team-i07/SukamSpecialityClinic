@@ -1,20 +1,20 @@
 .all-blogs-container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: auto;
-  padding: 40px 20px;
+  padding: 20px 20px;
   text-align: center;
 }
 
 .all-blogs-title {
   font-size: 2.5rem;
   color: #54007b;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .blog-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 30px;
+  gap: 20px;
 }
 
 .blog-card {

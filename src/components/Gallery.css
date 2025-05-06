@@ -1,15 +1,15 @@
 .gallery-container {
   text-align: center;
-  padding: 20px;
+  padding: 10px;
 }
 
 .gallery-title {
   font-size: 2.5rem;
-  font-weight: bold;
+  font-weight: 800;
+  color: #0141c1;
   /* background: linear-gradient(135deg, #ff5e9c, #5eb8ff); 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; */
-  color: black;
   margin-bottom: 15px;
   padding-bottom: 10px;
   opacity: 0;

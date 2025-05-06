@@ -58,7 +58,7 @@
 }
 
 .phone-btn:hover {
-  background-color: rgb(253, 19, 19);
+  background-color: #0141c1;
   color: #fff;
   transform: scale(1.03);
 }
